@@ -5,7 +5,7 @@ loop do
   n -= 1
   if n == 0
     break
-  end
+end
 "HAPPY NEW YEAR!"
 end
 
@@ -19,6 +19,6 @@ loop do
   sleep 5
   if n == 0
     break
-  end
+end
 "HAPPY NEW YEAR!"
 end
