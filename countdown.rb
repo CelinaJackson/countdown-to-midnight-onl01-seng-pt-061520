@@ -6,10 +6,10 @@ loop do
   if n == 0
     break
   end
+"HAPPY NEW YEAR!"
 end
-end
-countdown(10)
-print "HAPPY NEW YEAR!"
+
+
 
 def countdown_with_sleep(n)
   n = 10
@@ -20,7 +20,5 @@ loop do
   if n == 0
     break
   end
+"HAPPY NEW YEAR!"
 end
-end
-countdown_with_sleep(10)
-print "HAPPY NEW YEAR!"
