@@ -11,12 +11,10 @@ end
 
 def countdown_with_sleep(n)
   n = 10
-loop do
+while n > 0
   puts "#{n} SECOND(S)!"
   n -= 1
   sleep 5
-  if n == 0
-    break
 end
 "HAPPY NEW YEAR!"
 end
