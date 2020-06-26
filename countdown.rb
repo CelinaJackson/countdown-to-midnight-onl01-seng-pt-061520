@@ -1,10 +1,8 @@
 def countdown(n)
 n = 10
-loop do
+while n > 0
   puts "#{n} SECOND(S)!"
   n -= 1
-  if n == 0
-    break
 end
 "HAPPY NEW YEAR!"
 end
